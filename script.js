@@ -154,3 +154,5 @@ function playGame() {
 }
 
 playBtn.addEventListener("click", playGame);
+
+//comment
