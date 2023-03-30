@@ -66,9 +66,9 @@ function giveReward() {
     let bigReward = creditsPlayingPerGame * 50;
     CURRENT_CREDITS += creditsPlayingPerGame * 50;
     return bigReward;
-  } else if ((first === second, second === third, second === third)) {
-    let littleReward = creditsPlayingPerGame * 10;
-    CURRENT_CREDITS += creditsPlayingPerGame * 10;
+  } else if (first === second || second === third || first === third) {
+    let littleReward = creditsPlayingPerGame * 5;
+    CURRENT_CREDITS += creditsPlayingPerGame * 5;
     return littleReward;
   } else {
     let wrecked = creditsPlayingPerGame * -1;
